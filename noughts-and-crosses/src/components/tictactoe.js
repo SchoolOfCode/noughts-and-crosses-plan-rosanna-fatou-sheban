@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react'
 import Board from './board'
-import Message from './message'
 import Refresh from './refresh'
 
 function gameWon(board) {
