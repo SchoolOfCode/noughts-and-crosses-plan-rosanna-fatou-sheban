@@ -1,7 +1,14 @@
-import logo from './logo.svg';
+import React, {useEffect} from 'react'
+
 import './App.css';
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Tic-Tac-Toe"
+  }, [])
+
+
   return (
     <div className="App">
       <header className="App-header">
